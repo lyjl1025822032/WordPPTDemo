@@ -16,6 +16,10 @@
 		204F9D271F6A73A2004C4435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204F9D251F6A73A2004C4435 /* LaunchScreen.storyboard */; };
 		204F9D321F6A73A2004C4435 /* WordPPTDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9D311F6A73A2004C4435 /* WordPPTDemoTests.m */; };
 		204F9D3D1F6A73A2004C4435 /* WordPPTDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9D3C1F6A73A2004C4435 /* WordPPTDemoUITests.m */; };
+		20CA38D12018826B0051EA7A /* 69966.txt in Resources */ = {isa = PBXBuildFile; fileRef = 20CA38CF201881CC0051EA7A /* 69966.txt */; };
+		20F87CF11F6BD06E00C38FE8 /* 中国移动IM方案.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 20F87CF01F6BD06E00C38FE8 /* 中国移动IM方案.pdf */; };
+		20F87CFA1F6BDA2E00C38FE8 /* PDFPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F87CF91F6BDA2E00C38FE8 /* PDFPreviewViewController.m */; };
+		20F87CFC1F6BDAD900C38FE8 /* 平台与客户端消息交互规范.doc in Resources */ = {isa = PBXBuildFile; fileRef = 20F87CFB1F6BDAD900C38FE8 /* 平台与客户端消息交互规范.doc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		204F9D381F6A73A2004C4435 /* WordPPTDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPPTDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		204F9D3C1F6A73A2004C4435 /* WordPPTDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPPTDemoUITests.m; sourceTree = "<group>"; };
 		204F9D3E1F6A73A2004C4435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CA38CF201881CC0051EA7A /* 69966.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 69966.txt; sourceTree = "<group>"; };
+		20F87CF01F6BD06E00C38FE8 /* 中国移动IM方案.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "中国移动IM方案.pdf"; sourceTree = "<group>"; };
+		20F87CF81F6BDA2E00C38FE8 /* PDFPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFPreviewViewController.h; sourceTree = "<group>"; };
+		20F87CF91F6BDA2E00C38FE8 /* PDFPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFPreviewViewController.m; sourceTree = "<group>"; };
+		20F87CFB1F6BDAD900C38FE8 /* 平台与客户端消息交互规范.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "平台与客户端消息交互规范.doc"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +112,15 @@
 		204F9D131F6A73A2004C4435 /* WordPPTDemo */ = {
 			isa = PBXGroup;
 			children = (
+				20F87CFB1F6BDAD900C38FE8 /* 平台与客户端消息交互规范.doc */,
+				20F87CF01F6BD06E00C38FE8 /* 中国移动IM方案.pdf */,
+				20CA38CF201881CC0051EA7A /* 69966.txt */,
 				204F9D171F6A73A2004C4435 /* AppDelegate.h */,
 				204F9D181F6A73A2004C4435 /* AppDelegate.m */,
 				204F9D1A1F6A73A2004C4435 /* ViewController.h */,
 				204F9D1B1F6A73A2004C4435 /* ViewController.m */,
+				20F87CF81F6BDA2E00C38FE8 /* PDFPreviewViewController.h */,
+				20F87CF91F6BDA2E00C38FE8 /* PDFPreviewViewController.m */,
 				204F9D1D1F6A73A2004C4435 /* Main.storyboard */,
 				204F9D231F6A73A2004C4435 /* Assets.xcassets */,
 				204F9D251F6A73A2004C4435 /* LaunchScreen.storyboard */,
@@ -252,6 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20CA38D12018826B0051EA7A /* 69966.txt in Resources */,
+				20F87CF11F6BD06E00C38FE8 /* 中国移动IM方案.pdf in Resources */,
+				20F87CFC1F6BDAD900C38FE8 /* 平台与客户端消息交互规范.doc in Resources */,
 				204F9D271F6A73A2004C4435 /* LaunchScreen.storyboard in Resources */,
 				204F9D241F6A73A2004C4435 /* Assets.xcassets in Resources */,
 				204F9D1F1F6A73A2004C4435 /* Main.storyboard in Resources */,
@@ -282,6 +299,7 @@
 				204F9D1C1F6A73A2004C4435 /* ViewController.m in Sources */,
 				204F9D221F6A73A2004C4435 /* WordPPTDemo.xcdatamodeld in Sources */,
 				204F9D191F6A73A2004C4435 /* AppDelegate.m in Sources */,
+				20F87CFA1F6BDA2E00C38FE8 /* PDFPreviewViewController.m in Sources */,
 				204F9D161F6A73A2004C4435 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +540,7 @@
 				204F9D431F6A73A2004C4435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204F9D441F6A73A2004C4435 /* Build configuration list for PBXNativeTarget "WordPPTDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +549,7 @@
 				204F9D461F6A73A2004C4435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		204F9D471F6A73A2004C4435 /* Build configuration list for PBXNativeTarget "WordPPTDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +558,7 @@
 				204F9D491F6A73A2004C4435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
